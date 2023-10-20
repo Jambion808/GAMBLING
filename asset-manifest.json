@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GAMBLING/static/css/main.d3a65f13.css",
-    "main.js": "/GAMBLING/static/js/main.0541909e.js",
-    "static/js/787.5530211c.chunk.js": "/GAMBLING/static/js/787.5530211c.chunk.js",
+    "main.css": "/GAMBLING/static/css/main.6789028a.css",
+    "main.js": "/GAMBLING/static/js/main.c5c994f9.js",
+    "static/js/787.79b9c571.chunk.js": "/GAMBLING/static/js/787.79b9c571.chunk.js",
     "static/media/Lexend-Regular.woff": "/GAMBLING/static/media/Lexend-Regular.957768d14570dbd3162a.woff",
     "static/media/Lexend-Regular.woff2": "/GAMBLING/static/media/Lexend-Regular.3df41651869755832d7d.woff2",
     "static/media/FuturaPT-Medium.woff": "/GAMBLING/static/media/FuturaPT-Medium.c8b92be03320c21491ce.woff",
@@ -35,12 +35,12 @@
     "index.html": "/GAMBLING/index.html",
     "static/media/Burger.svg": "/GAMBLING/static/media/Burger.b9714dd8121d0d198855d06a5a154f68.svg",
     "static/media/closeburger.svg": "/GAMBLING/static/media/closeburger.c75fcaf1d6693385131950cb7f1afb93.svg",
-    "main.d3a65f13.css.map": "/GAMBLING/static/css/main.d3a65f13.css.map",
-    "main.0541909e.js.map": "/GAMBLING/static/js/main.0541909e.js.map",
-    "787.5530211c.chunk.js.map": "/GAMBLING/static/js/787.5530211c.chunk.js.map"
+    "main.6789028a.css.map": "/GAMBLING/static/css/main.6789028a.css.map",
+    "main.c5c994f9.js.map": "/GAMBLING/static/js/main.c5c994f9.js.map",
+    "787.79b9c571.chunk.js.map": "/GAMBLING/static/js/787.79b9c571.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3a65f13.css",
-    "static/js/main.0541909e.js"
+    "static/css/main.6789028a.css",
+    "static/js/main.c5c994f9.js"
   ]
 }
