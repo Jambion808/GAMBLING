@@ -1,0 +1,251 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin-top: 16px;
+
+}
+
+.header__container {
+    max-width: 1640px;
+    margin: 0 auto;
+    border: 4px solid #478BF9;
+    border-radius: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 88px;
+    background-color: #110A1D;
+    margin: 0 140px;
+    padding-left: 534px;
+    gap: 210px;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__logo {
+    width: 287px;
+    margin-left: 48px;
+}
+
+.header__nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 558px;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    white-space: nowrap;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+
+    &:hover {
+        color: #478BF9;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+
+.header__auth-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+    padding: 0;
+    margin-right: 42px;
+}
+
+.header__auth-item {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 24px;
+    border: 2px solid #9DADF2;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &:hover {
+        border: 2px solid #478BF9;
+        background-color: #478BF9;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+
+.header__auth-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 14px;
+
+}
+
+.header__lang-icon {
+    padding-left: 14px;
+}
+
+.header__en-icon{
+    display: none;
+}
+
+.burger__list{
+    display: none;
+}
+
+
+
+@media (max-width:1500px) {
+
+    .header {
+        margin-top: 10px;
+        width: 320px;
+
+    }
+
+    .header__container {
+        max-width: 300px;
+        margin: 0 auto;
+        border-radius: 64px;
+        justify-content:flex-end;
+        align-items: center;
+        height: 52px;
+        margin: 0 10px;
+        gap: 4px;
+        padding-left: 0;
+        border: 2px solid #478BF9;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__nav-items {
+        display: none;
+    }
+
+    .header__auth-items {
+        display: none;
+    }
+
+    .header__en-icon{
+        display: block;
+        width: 18.75px;
+        height: 18.75px;
+        border-radius: 24px;
+        border: 2px solid #9DADF2;
+        padding: 6.5px;
+    }
+
+    .header__container-burger{
+        margin-right: 14px;
+       height: 36px;
+       display: flex;
+
+       &.burger_open{
+        .burger__list{
+            display: block;
+        }
+       }
+       
+    }
+
+    .header__burger {
+        display: block;
+        display: flex;
+        align-items: center;
+        width: 36px;
+        height: inherit;
+        justify-content: center;
+    }
+
+    .burger__list{
+        display: none;
+        background-color: #110A1D;
+        position: absolute;
+        top: 85px;
+        left: 10px;
+        padding: 0;
+        z-index: 15;
+        border-radius: 28px;
+    }
+
+    .burger__list-items{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 0;
+        padding: 0;
+        width: 300px;
+    }
+
+    .burger__list-item{
+
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        border: 2px solid #478BF9;
+        border-radius: 28px;
+        padding: 11px 20px;
+    }
+
+    .burder__list-link{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .header__burger-auth{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .header__burger-auth-item{
+        border: 2px solid #9DADF2;
+        border-radius: 28px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        background-color: #1E1231;
+    }
+
+    .header__burger-auth-item_bottom{
+        background-color: #478BF9;
+        border-color: #478BF9;
+    }
+
+    .header__burger-auth-link_bottom{
+
+    }
+
+    .header__burger-auth-link{
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+        margin: 0 auto;
+    }
+
+}
