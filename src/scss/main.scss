@@ -104,10 +104,15 @@
     width: 100%;
     border: 3px solid #478BF9;
     border-radius: 100px;
+    scrollbar-width: none;
 
     &::-webkit-scrollbar {
         display: none;
     }
+
+    &::-moz-scrollbar {
+        display: none;
+      }
 }
 
 .scrollbar {
